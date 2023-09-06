@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-05 08:42:12 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMTA1OzIwMjMtMDktMDU7MDc6NTc6MjIgcC4gbS47Mjg0MQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMTA1OzIwMjMtMDktMDU7MDg6NDI6MTIgcC4gbS47MTsyOTQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="apellidos" type="String" array="False" size=""/>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="domicilio" type="String" array="False" size=""/>
+            <declare name="servmed" type="Boolean" array="False" size=""/>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <declare name="promedio" type="Real" array="False" size=""/>
+            <output expression="&quot;Introduce apellidos&quot;" newline="True"/>
+            <input variable="apellidos"/>
+            <output expression="&quot;Introduce nombre&quot;" newline="True"/>
+            <input variable="nombre"/>
+            <output expression="&quot;introduce domicilio&quot;" newline="True"/>
+            <input variable="domicilio"/>
+            <output expression="&quot;Introduce servmed&quot;" newline="True"/>
+            <input variable="servmed"/>
+            <output expression="&quot;Introduce edad&quot;" newline="True"/>
+            <input variable="edad"/>
+            <output expression="&quot;Introduce promedio&quot;" newline="True"/>
+            <input variable="promedio"/>
+            <output expression="apellidos" newline="True"/>
+            <output expression="nombre" newline="True"/>
+            <output expression="domicilio" newline="True"/>
+            <output expression="servmed" newline="True"/>
+            <output expression="edad" newline="True"/>
+            <output expression="promedio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
